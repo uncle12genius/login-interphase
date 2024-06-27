@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAlanta</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+ <div class="evan">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="password" class="input-field" placeholder="Enter password" required>
+                <input type="checkbox" class="checkbox"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log in</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Create a user Id" required>
+                <input type="email" class="input-field" placeholder="Fill in your email" required>
+                <input type="password" class="input-field" placeholder="create a new password" required>
+                <input type="checkbox" class="checkbox"><span>I agree to the terms and conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+        <h1><marquee behavior="scroll" direction="left"> Welcome to our talent and innovation platform </marquee></h1>
+    </div>
+
+    <script src="inde.js"></script>
+</body>
+</html>
